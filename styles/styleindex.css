@@ -1,0 +1,32 @@
+body{
+    background:url(/assets/background_first_page.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+.elemente{
+    margin-top:10%;
+    margin-left: 5%;
+}
+.sec1{
+    display: flex;
+}
+.titlu{
+    color:var(--light);
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: var(--font-secundar);
+    text-shadow: 0px 1px 11px rgba(0,0,0,0.9);
+}
+.button{
+    padding:15px;
+    border-radius: 5px;
+    color:var(--light);
+    background:linear-gradient(to top left, #610b52 0%, #ff8e28 100%);
+    box-shadow: 0px 0px 72px -7px rgba(255,255,255,0.96);
+}
+.button:hover{
+    background:linear-gradient(to top left, #ff8e28 0%, #610b52 100%);
+}

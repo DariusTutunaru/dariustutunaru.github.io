@@ -1,0 +1,84 @@
+:root{
+    --light:#FAFAFA;
+    --dark:#14100A;
+    --principal:#8C6445;
+    --secundar:#DCC3A0;
+    --third:#0B3954;
+    --galben:#ff8e28;
+    --mov:#610b52;
+    
+    --header-bg:#8C6445;
+    --header-hover:#ead3b4;
+
+    --font-principal:"Montserrat";
+    --font-secundar:"Cinzel";
+
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* antet */
+header {
+    background-color: var(--header-bg);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: var(--header-bg);
+    padding: 10px 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 20px;
+    margin: 0 5px;
+    border-radius: 25px;
+}
+
+nav a:hover {
+    color:var(--dark);
+    background-color: var(--header-hover);
+}
+
+nav a.active {
+    color:var(--dark);
+    background-color: var(--header-hover);
+}
+/* sfarsit antet */
+
+/* subsol */
+footer{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: var(--dark);
+    height: auto;
+    width: 100vw;
+
+    color: var(--light);
+}
+
+
+.footer-bottom{
+    background: #000;
+    width: 100vw;
+    padding: 20px;
+padding-bottom: 40px;
+    text-align: left;
+}
+.footer-bottom p{
+float: left;
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+/* sfarsit subsol */ 
