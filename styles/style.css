@@ -47,10 +47,7 @@ nav a:hover {
     background-color: var(--header-hover);
 }
 
-nav a.active {
-    color:var(--dark);
-    background-color: var(--header-hover);
-}
+
 /* sfarsit antet */
 
 /* subsol */
@@ -61,21 +58,20 @@ footer{
     right: 0;
     background: var(--dark);
     height: auto;
-    width: 100vw;
-
+    width: 100%;
     color: var(--light);
 }
 
 
 .footer-bottom{
     background: #000;
-    width: 100vw;
+    width: 100%;
     padding: 20px;
-padding-bottom: 40px;
+    padding-bottom: 40px;
     text-align: left;
 }
 .footer-bottom p{
-float: left;
+    float: left;
     font-size: 14px;
     word-spacing: 2px;
     text-transform: capitalize;

@@ -5,7 +5,10 @@ body{
     background-attachment: fixed;
     
 }
-
+#nav2{
+    color:var(--dark);
+    background-color: var(--header-hover);
+}
 .elemente{
     margin-top:8%;
     margin-left: 5%;

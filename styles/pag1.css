@@ -1,0 +1,93 @@
+#nav2{
+    color:var(--dark);
+    background-color: var(--header-hover);
+}
+.st h1, .right h1{
+    font-family: var(--font-secundar);
+    font-weight: 500;
+    font-size: 40px;
+}
+.regiunea, .teritoriile, .harta{
+    display: flex;
+    flex-direction: row;
+    padding: 0 5% 0 5%;
+}
+.regiunea{
+    margin-top:5%;
+}
+.st{
+    float: left;
+    width: 70%;
+    padding-right:10%;
+}
+.st p{
+    text-indent: 5%;
+    text-align: justify;
+}
+.dr{
+    float: right;
+    width: 30%;
+}
+.dr img,.left img{
+    height:80%;
+    width: 100%;
+
+}
+.left{
+    float: left;
+    width: 40%;
+}
+.right{
+    float: right;
+    width: 60%;
+}
+.right p{
+    text-indent: 5%;
+    text-align: justify;
+    padding-left:10%;
+}
+.hartaint{
+    position: relative;
+    display: flex;
+    margin-bottom: 10%;
+}
+.harta{
+    float: left;
+    width: 50%;
+}
+.paragrafe{
+    float: left;
+    width: 40%;
+}
+.paragrafe p{
+    padding: 1% 0 1% 0;
+    border-bottom: 1px solid black;
+    font-size: 18px;
+}
+#map {
+    width: 100%;
+    height:450px;
+    position: relative;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('/assets/harta_bg.webp');
+}
+.checkpoint-btn {
+    width:55px;
+    position: absolute;
+    border: none;
+    color: white;
+    display: inline-block;
+    cursor: pointer;
+}
+.checkpoint-btn:hover {
+    transform: scale(1.1);
+}
+#h1map{
+    font-family: var(--font-secundar);
+    font-weight: 500;
+    font-size: 40px;
+    padding-bottom: 5%;
+}
+

@@ -26,6 +26,63 @@
 </head>
 <body>
     <main-header></main-header>
+    <div class="regiunea">
+        <div class="st">
+            <h1>Regiunea Palestina</h1>
+            <br><br>
+            <p>Ca zonă geografică, Palestina, cunoscută în Biblie sub numele de Canaan, nu este un teritoriu unitar cu granițe naturale bine definite, dar se pot identifica unele limite: la vest Marea Mediterană, la est râul Iordan, la sud deșertul Negev, iar la nord granița cu Liban.</p>
+            <p>Aceasta este o zonă a planetei care nu a cunoscut niciodată cu adevărat stabilitatea și nici separarea clară a etniilor și popoarelor, pentru că toți cei care au trăit acolo au vrut-o într-un mod sau altul.</p>
+            <p>Termenul "Palestina" provine din limba latină și este derivat din numele dat de romani regiunii locuite de poporul filistin, care a fost cunoscută sub numele de "Philistia" în ebraică și "Palaistinē" în greacă în antichitate. </p>
+            <p>În zilele noastre, regiunea este divizată în trei părți: Israel, controlată de statul cu același nume, Fâșia Gaza și Cisiordania, cunoscută și sub numele de West Bank (Malul de Vest), care aparțin statului Palestina, recunoscut de 96 de țări membre ONU, printre care și România.</p>
+            
+        </div>
+        <div class="dr">
+            <img src="/assets/harta_1.jpeg" alt="">
+        </div>
+    </div>
+    <div class="teritoriile">
+        <div class="left">
+            <img src="/assets/harta_2.jpeg" alt="">
+        </div>
+        <div class="right">
+            <h1 align = "right">Teritoriile Palestinei</h1>
+            <br>
+            <p>Israel este statul care ocupă majoritatea teritoriului din regiune, având peste 9 milioane de locuitori. Ca formă de guvernământ, acesta este republică parlamentară. Este împărțit în 6 districte și are capitala autoproclamată la Ierusalim, dar nerecunoscută la nivel internațional și contestată de Consiliul de Securitate al ONU, majoritatea țărilor purtând relațiile diplomatice la Tel Aviv.</p>
+            <p>Statul Palestina cuprinde Fâșia Gaza, Cisiordania și Ierusalimul de Est și este controlat de către Autoritatea Națională Palestiniană, o entitate guvernamentală care are drept scop administrarea anumitor aspecte ale vieții civile în teritoriile palestiniene. În urma acordurilor de la Oslo, aceste teritorii au fost divizate în 3 zone și 16 guvernorate (5 în Fâșia Gaza și 11 în Cisiordania).</p>
+            <p>Fâșia Gaza este, în teorie, una dintre cele două componente teritoriale ale Autorității Palestiniene. În realitate, în urma eliminării partidelor concurente, a devenit o entitate autonomă aflată sub controlul dictatorial al Hamasului, un grup islamist considerat terorist. </p>
+            <p>Cisiordania este condusă de către guvernul Autorității Naționale Palestiniene, o entitate arabă sunnită semi-independentă, separată teritorial și politic de guvernul Hamas din Fâșia Gaza. În Cisiordania există enclave cu așezări sau colonii agricole și urbane israeliene, precum și Ierusalimul de est.</p>
+        </div>
+    </div>
+    <h1 id="h1map" align="center">Obiective strategice importante din regiune</h1>
+    <div class="hartaint">
+        <div class="harta">
+            <div id="map">
+                <button class="checkpoint-btn" style="top: 57%; left: 22%;" onclick="updateValues('gaza')">
+                    <img src="/assets/checkpoint.png" alt="">
+                </button>
+                <button class="checkpoint-btn" style="top: 64%; left: 18%;" onclick="updateValues('khan')">
+                    <img src="/assets/checkpoint.png" alt="">
+                </button>
+                <button class="checkpoint-btn" style="top: 48%; left: 40%;" onclick="updateValues('ierusalim')">
+                    <img src="/assets/checkpoint.png" alt="">
+                </button>
+                <button class="checkpoint-btn" style="top: 77%; left: 30%;" onclick="updateValues('haserim')">
+                    <img src="/assets/checkpoint.png" alt="">
+                </button>
+                <button class="checkpoint-btn" style="top: 37%; left: 30%;" onclick="updateValues('mossad')">
+                    <img src="/assets/checkpoint.png" alt="">
+                </button>
+                <button class="checkpoint-btn" style="top: 55%; left: 25%;" onclick="updateValues('erez')">
+                    <img src="/assets/checkpoint.png" alt="">
+                </button>
+            </div>
+        </div>
+        <div class="paragrafe">
+            <p><i>Denumire:  </i><span id="value1"></span></p>
+            <p><i>Tip:  </i><span id="value2"></span> </p>
+            <p><i>Despre:  </i><span id="value3"></span> </p>
+        </div>
+    </div>
     <main-footer></main-footer>
 </body>
 </html>
