@@ -82,7 +82,7 @@
             <div align="center" class="dr betleem">
                 <figure>
                     <img src="/assets/betleem_st.jpeg" alt="">
-                    <figcaption>Betleem, ilustrație de Luigi Mayer</figcaption>
+                    <figcaption>Betleem, ilustrație de Luigi Mayer (<i>sec. IX</i>)</figcaption>
                 </figure>
             </div>
             <div align = "right" class="st">
@@ -96,9 +96,58 @@
     </div>
     <div class="spacer" style="background-image:url(/assets/allenby.webp);"></div>
     <div class="ba">
-    
+        <div class="left">
+            <p align = "center">Palestina Noului / Vechiului Testament</p>
+            <div class="image-comparison">
+                <div class="images-container">
+                <img class="before-image" src="/assets/palestina2.webp" alt="" />
+                <img class="after-image" src="/assets/palestina1.webp" alt="" />
+        
+                <div class="slider-line"></div>
+                <div class="slider-icon">
+                    <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="black"
+                    class="w-8 h-8"
+                    >
+                    <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M8.25 15L12 18.75 15.75 15m-7.5-6L12 5.25 15.75 9"
+                    />
+                    </svg>
+                </div>
+        
+                <input type="range" class="slider" min="0" max="100" />
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <p>Francis Frith, <i>Gaza (Orașul Vechi)</i></p>
+            <img src="/assets/oldtowngaza.jpeg" alt="">
+        </div>
     </div>
     <main-footer></main-footer>
 
 </body>
 </html>
+
+
+<script>
+//slider before & after
+const slider = document.querySelector(".image-comparison .slider");
+const beforeImage = document.querySelector(".image-comparison .before-image");
+const sliderLine = document.querySelector(".image-comparison .slider-line");
+const sliderIcon = document.querySelector(".image-comparison .slider-icon");
+
+slider.addEventListener("input", (e) => {
+  let sliderValue = e.target.value + "%";
+
+  beforeImage.style.width = sliderValue;
+  sliderLine.style.left = sliderValue;
+  sliderIcon.style.left = sliderValue;
+});
+</script>

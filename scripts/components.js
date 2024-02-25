@@ -6,7 +6,7 @@ class Header extends HTMLElement {
         <a id="nav1" href="/index.html">Principal</a>
         <a id="nav2" href="/regiuneapalestina.html" class="active">Regiunea Palestina</a>
         <a id="nav3" href="/inceputuri.html">De la începuturi și Dominația Otomană</a>
-        <a id="nav4" href="#">Secolul XX</a>
+        <a id="nav4" href="/sec20.html">Secolul XX</a>
         <a id="nav5" href="#">Conflictele contemporane</a>
         <a id="nav6" href="#">Atacul din 2023</a>
     </nav>

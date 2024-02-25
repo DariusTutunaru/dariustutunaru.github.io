@@ -1,0 +1,119 @@
+#nav4{
+    color:var(--dark);
+    background-color: var(--header-hover);
+}
+:root{
+    --accent-color:var(--principal);
+}    
+
+.line{
+  position: absolute;
+  width:2px;
+  height:100%;
+  background-color:black;
+  left:50%;
+}
+.card-even{
+    display: flex;
+    .left{
+      width: 50%;
+      padding: 0 3% 0 5%;
+      .cnt{
+        padding:5%;
+        border-radius: 15px;
+        background-color: rgb(0,0,0,0.1);
+        .dl{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          .data{
+            padding:5px 10px;
+            border-radius:5px;
+            color:var(--light);
+            background-color: var(--principal);
+          }
+        }
+        .text{
+          margin-top:4%;
+        }
+        .poza{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          margin-top:5%;
+          img{
+            width:80%;
+            height:auto;
+          }
+          figcaption{
+            margin-top:10px;
+            font-style: italic;
+            font-weight:400;
+          }
+        }
+      }
+    }
+    .right{
+      width: 50%;
+    }
+
+}
+.card-odd{
+  display: flex;
+  .left{
+    width: 50%;
+    padding: 0 5% 0 3%;
+    .cnt{
+      padding:5%;
+      border-radius: 15px;
+      background-color: rgb(0,0,0,0.1);
+      .dl{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .data{
+          padding:5px 10px;
+          border-radius:5px;
+          color:var(--light);
+          background-color: var(--principal);
+        }
+      }
+      .text{
+        margin-top:4%;
+      }
+      .poza{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top:5%;
+        img{
+          width:80%;
+          height:auto;
+        }
+        figcaption{
+          margin-top:10px;
+          font-style: italic;
+          font-weight:400;
+        }
+      }
+    }
+  }
+  .right{
+    width: 50%;
+  }
+
+}
+
+.card-odd{
+  .left{
+    border-right: 2px solid black;
+  }
+}
+.card-even{
+  .right{
+    border-right: 2px solid black;
+  }
+}
+
