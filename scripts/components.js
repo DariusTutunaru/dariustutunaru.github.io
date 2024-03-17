@@ -8,8 +8,9 @@ class Header extends HTMLElement {
         <a id="nav3" href="/inceputuri.html">De la începuturi și Dominația Otomană</a>
         <a id="nav4" href="/sec20.html">Secolul XX</a>
         <a id="nav5" href="/m3.html"> Mileniul III</a>
+        <a id="nav7" href="/feed.html">Ultimele știri</a>
         <a id="nav6" href="/bibliografie.html"> Bibliografie</a>
-      </nav>
+        </nav>
 
       `;
     }
