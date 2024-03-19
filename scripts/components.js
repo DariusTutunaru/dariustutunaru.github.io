@@ -26,7 +26,11 @@ class Footer extends HTMLElement{
         <div class="footer-bottom">
             <p>Colegiul Național „George Coșbuc” Motru </p><br>
             <p>Elev Tutunaru Darius-Mihai</p><br>
-            <p>Profesor coordonator Negrea Nicolae</p>
+            
+          <p>Profesori coordonatori:</p> <br>
+          <p style="text-indent:30px;">Istorie - prof. Negrea Nicolae</p><br>
+          <p style="text-indent:30px;">Informatică - prof. Giorgescu Emilia</p>
+               
                     
         </div>
   
